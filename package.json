@@ -1,12 +1,9 @@
 {
   "name": "gaze",
   "description": "A globbing fs.watch wrapper built from the best parts of other fine watch libs.",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "homepage": "https://github.com/shama/gaze",
-  "author": {
-    "name": "Kyle Robinson Young",
-    "email": "kyle@dontkry.com"
-  },
+  "author": "Kyle Robinson Young <kyle@dontkry.com>",
   "repository": {
     "type": "git",
     "url": "git://github.com/shama/gaze.git"
@@ -46,5 +43,9 @@
   "files": [
     "lib",
     "LICENSE-MIT"
-  ]
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "license": "BSD-2-Clause"
 }
